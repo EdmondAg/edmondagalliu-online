@@ -2,7 +2,7 @@ div.name-job {;
     height: 100vh;
     position: relative;
     width: 100%;
-    background: url("black-sand.jpg") no-repeat fixed center/cover;
+    background: url("../images/black-sand.jpg") no-repeat fixed center/cover;
 
 }
 div.name-job h1,h2 {
