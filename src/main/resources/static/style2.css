@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    backgroung-size: cover;
+    background: black center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: pink;
+    transition: .5s;
+}
+.cv{
+    background: white;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .2s;
+}
+.cv:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content h2{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.content h1{
+    color: white;
+    font-size: 65px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.newslatter form {
+    width: 320px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background: black;
+}
+.about-text{
+    width: 900px;
+    position: relative;
+}
+.about img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 100px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about-text h4{
+    color: plum;
+    font-size: 70px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color:lightpink;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+button{
+    background: red;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .2s;
+}
+button:hover{
+    background: white;
+    color: red;
+    transition: .5s;
+    border: red 2px solid;
+}
+.service{
+    background: black;
+    padding: 100px 0;
+    width: 100%;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: slategrey;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: transform .2s;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card i{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+h5{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: -1;
+    transform: skewX(-20deg);
+    transition: transform .2s;
+}
+.card:hover::before{
+    transform: skewX(0deg);
+}
+.contact{
+    background: black;
+    padding: 100px 0;
+    width: 100%;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.card .button{
+    background: red;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .2s;
+}
+.card .button:hover{
+    background: white;
+    color: red;
+    transition: .5s;
+    border: red 2px solid;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-me .button-two{
+    background: red;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .2s;
+}
+.contact-me .button-two:hover{
+    background: white;
+    color: red;
+    transition: .5s;
+    border: red 2px solid;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer i{
+    font-size: 30px;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+footer i:hover{
+    transform: scale(1.2);
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+footer p a{
+    color: red;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: white;
+    transition: .5s;
+}
+@media screen and (max-width: 1130px){
+    .main{
+        flex-direction: column;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .title h2{
+        width: 100%;
+    }
+    .card{
+        margin: 15px 0;
+    }
+}
+@media screen and (max-width: 900px){
+    .about-text h2{
+        font-size: 50px;
+    }
+    .about-text h4{
+        font-size: 30px;
+    }
+    .about-text p{
+        font-size: 15px;
+    }
+    .title h2{
+        font-size: 50px;
+    }
+    .card i{
+        font-size: 30px;
+    }
+    .card h5{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .contact-me p{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .about-text h2{
+        font-size: 30px;
+    }
+    .about-text h4{
+        font-size: 20px;
+    }
+    .about-text p{
+        font-size: 10px;
+    }
+    .title h2{
+        font-size: 30px;
+    }
+    .card i{
+        font-size: 20px;
+    }
+    .card h5{
+        font-size: 15px;
+    }
+    .card p{
+        font-size: 5px;
+    }
+    .contact-me p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .about-text h2{
+        font-size: 20px;
+    }
+    .about-text h4{
+        font-size: 15px;
+    }
+    .about-text p{
+        font-size: 5px;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+    .card i{
+        font-size: 15px;
+    }
+    .card h5{
+        font-size: 10px;
+    }
+    .card p{
+        font-size: 2px;
+    }
+    .contact-me p{
+        font-size: 15px;
+    }
+}
