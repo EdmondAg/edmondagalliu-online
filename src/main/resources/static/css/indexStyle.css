@@ -332,8 +332,42 @@ footer p a:hover{
     transition: .5s;
 }
 
-@media only screen and (min-width: 850px) {
-    .content{
-        margin-left: 10%;
+@media screen and (max-width: 1130px){
+    .main{
+        flex-direction: column;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-text h2{
+        font-size: 50px;
+    }
+    .about-text h4{
+        font-size: 40px;
+    }
+    .about-text p{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 50px;
+    }
+    .card{
+        width: 300px;
+    }
+    .card h5{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+    .card .button{
+        font-size: 15px;
+    }
+    .contact-me p{
+        font-size: 30px;
+    }
+    .contact-me .button-two{
+        font-size: 15px;
     }
 }
+
