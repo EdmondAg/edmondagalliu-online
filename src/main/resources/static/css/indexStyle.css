@@ -280,6 +280,26 @@ p{
     font-weight: 500;
     margin-bottom: 20px;
 }
+.phone-mail{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.phone-mail a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.phone-mail a:hover{
+    color: pink;
+}
+.footer{
+    background: black;
+    padding: 20px 0;
+    width: 100%;
+}
+
 .contact-me .button-two{
     background: red;
     color: white;
@@ -381,6 +401,11 @@ footer p a:hover{
     .contact-me p{
         font-size: 30px;
         margin-bottom: 30px;
+    }
+    .contact-me a{
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
     }
 }
 
